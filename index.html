@@ -26,7 +26,13 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a href="#" class="navbar-brand">Alma de Acacia</a>
+        <a href="#" onclick="irAInicio()" class="navbar-brand">Alma de Acacia</a>
+
+        <script>
+            function irAInicio() {             
+              window.location.href = '/';
+            }
+        </script>
         
         <button
           class="navbar-toggler"
@@ -42,7 +48,7 @@
         <div class="collapse navbar-collapse" id="navbarS">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Inicio</a>
+                    <a href="#" onclick="irAInicio()" class="nav-link">Inicio</a>
 
                 </li>
                 <li class="nav-item">
@@ -623,7 +629,7 @@
                         <i class="bi bi-envelope-fill"></i> alma.acacia@gmail.com 
                     </p>
                     <p class="d-flex align-items-center">
-                        <i class="bi bi-telephone-outbound-fill"></i> +549 26187892
+                        <i class="bi bi-telephone-outbound-fill"></i> +542613439767
                     </p>
                     <p class="d-flex align-items-center">
                         <i class="fa-solid fa-globe"></i> Mendoza, Argentina 
